@@ -25,7 +25,7 @@ public class Main07 {
 		int result = 1;
 		
 		for(int num:sum) {
-			System.out.printf("Case #%d: %d\n",result,num);
+			System.out.printf("Case #%d: %d\n",result,num);	
 			result++;
 			
 		}
