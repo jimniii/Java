@@ -9,7 +9,7 @@ public class MethodTest { // java는 class 구조체로서 method로 구성
 		int y1 = f(1);
 		int y2 = f(2);
 		int y3 = f(3);
-		int y4 = f(4)
+		int y4 = f(4);
 		
 		System.out.println("y1:"+y1);
 		System.out.println("y2:"+y2);
