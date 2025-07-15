@@ -1,4 +1,4 @@
-package sub02;
+package sub04;
 
 public class Account {
 	
