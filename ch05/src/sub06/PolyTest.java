@@ -52,14 +52,20 @@ public class PolyTest {
 		arr[2].move();
 		
 		
+		////////////////////////////////////////////////////////////////////////////
 		
+		Cat cat = new Cat();
+		Dog dog = new Dog();
 		
-		
-		
-		
-		
-		
+		printSound(cat);
+		printSound(dog);
 		
 		
 	}
+	
+	// Dog,cat 객체를 인자로 받는 매개변수 선언
+	public static void printSound(Pet pet) {
+		pet.makeSound();
+	}
+	
 }
