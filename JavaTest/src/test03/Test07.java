@@ -36,9 +36,9 @@ class Customer{
 		
 		public VipCustomer(int id,String name) {
 			super(id,name);
-			super.grade = "VIP";
-			super.point = 1000;
-			super.pointRatio = 0.05;
+			this.grade = "VIP";
+			this.point = 1000;
+			this.pointRatio = 0.05;
 			this.saleRatio = 0.1;
 		}
 		
