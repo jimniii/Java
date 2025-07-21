@@ -1,0 +1,24 @@
+package sub01;
+
+public class Apple extends Object { // 자바의 모든 클래스는 암묵적으로 Object를 상속
+	
+	private String Country;
+	private int price;
+	
+	public Apple(String country, int price) {
+		this.Country = country;
+		this.price = price;
+	}
+
+	@Override
+	public String toString() { 
+		// 클래스 정보 출력 메서드
+		return "Apple [Country=" + Country + ", price=" + price + "]";
+	}
+	
+	
+	
+	
+	
+	
+}
