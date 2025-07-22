@@ -11,14 +11,13 @@ public class Main10 {
 		int count = Integer.parseInt(br.readLine());
 		
 		for(int i = 0; i<count ; i++) {
-			for(int j = 0; j<i ; j++) {
+			for(int j = 1; j<=count-i-1 ; j++) {
 				bw.write(" ");
-			for(int k =0; k<=i ;k++) {
-				bw.write("*");
-				}
-			
 			}
-		System.out.print("\n");		
+			for(int k =1; k<=i+1 ;k++) {
+				bw.write("*");
+			}
+			bw.write("\n");			
 		}
 		
 		

@@ -9,6 +9,7 @@ public class Main09 {
 		
 		int count = Integer.parseInt(br.readLine());
 		
+		
 		for(int i =0; i<count ; i++) {
 			for(int j =0;j<=i;j++) {
 				bw.write("*");
